@@ -11,9 +11,9 @@ path_file_remove = 'C:/Users/sa/Desktop/run auto/model/*.sav'
 source_file_move='C:/Users/sa/Desktop/run auto/' 
 destination_file='C:/Users/sa/Desktop/run auto/model/'
 
-
+print('processing started..')
 def job():
-
+    
     #generate  new file in main folder path
     list1 = ['a', 'b', 'c']
     for i in range(len(list1)):
