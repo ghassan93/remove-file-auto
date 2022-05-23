@@ -40,12 +40,12 @@ def job():
     print('Moved')
     print("I'm working...")
 
-job()
 
 
-# schedule.every(1).minutes.do(job)
-# # schedule.every().day.at("17:13").do(job)
 
-# while True:
-#     schedule.run_pending()
-#     time.sleep(5)
+schedule.every(1).minutes.do(job)
+# schedule.every().day.at("17:13").do(job)
+
+while True:
+    schedule.run_pending()
+    time.sleep(5)
